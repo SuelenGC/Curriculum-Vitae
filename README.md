@@ -206,5 +206,5 @@ One of the organizers of the GDG-SP Android Meetup: https://developers.google.co
     <tr><td>Company </td> <td> Caelum </td> </tr>
     <tr><td>Title </td> <td> Instructor </td> </tr>
     <tr><td>Activities </td>
-        <td> Instructor Course "Architecture and Design Project Java", "Laboratory tests with Java, XML, and Design Patterns", "Mobile Development with Google Android" and "Java for Web development." </td> </tr>
+        <td> Ministering courses "Java Web", "Agile Software Project Management with Scrum", "Mobile Development with Google Android" and "Techniques Advanced Android Development". </td> </tr>
 </table>

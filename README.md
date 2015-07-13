@@ -20,7 +20,7 @@ One of the organizers of the GDG-SP Android Meetup: https://developers.google.co
 
 <table>
     <tr>
-        <td> 2013 - 2015 </td>
+        <td> 2014 - 2018 </td>
         <td> 
             Master in Computer Science <br />
             Universidade de São Paulo, USP <br />

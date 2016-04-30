@@ -1,0 +1,27 @@
+# == IDE files ==
+*.swp
+
+# == Latex files ==
+.dvi
+*.aux
+*.dvi
+*.ps
+*.idx
+*.loa
+*.lof
+*.log
+*.toc
+*.out
+*.snm
+*.tex~
+*.ind
+*.bak
+*.bbl
+*.bbl~
+*.blg
+*.bib~
+*.brf
+*.ilg
+*.nav
+*.vrb
+*.backup

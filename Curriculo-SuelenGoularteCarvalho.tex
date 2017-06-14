@@ -1,5 +1,15 @@
 \documentclass[a4paper, oneside, final]{scrartcl}
 
+\makeatletter
+	\DeclareOldFontCommand{\rm}{\normalfont\rmfamily}{\mathrm}
+	\DeclareOldFontCommand{\sf}{\normalfont\sffamily}{\mathsf}
+	\DeclareOldFontCommand{\tt}{\normalfont\ttfamily}{\mathtt}
+	\DeclareOldFontCommand{\bf}{\normalfont\bfseries}{\mathbf}
+	\DeclareOldFontCommand{\it}{\normalfont\itshape}{\mathit}
+	\DeclareOldFontCommand{\sl}{\normalfont\slshape}{\@nomath\sl}
+	\DeclareOldFontCommand{\sc}{\normalfont\scshape}{\@nomath\sc}
+\makeatother
+
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
 \usepackage{amssymb}
@@ -22,14 +32,13 @@
 
 % add the symbols for email and phone contact data
 \cofoot{
-{\small\Letter} {\large suelengcarvalho@gmail.com} \ {\small\Telefon} {\small +55 (11) 95020-0060}
-} 
+{\small\Letter} {\large suelengcarvalho@gmail.com} \ {\small\Telefon} {\small +55 (11) 95020-0060}} 
 
 
 \begin{document}
 
 \begin{center}
-\textsc{\Huge{Suelen Goularte Carvalho - 28 anos}} \vspc\\
+\textsc{\Huge{Suelen Goularte Carvalho - 30 anos}} \vspc\\
 {\small Brasileira, +55 (11) 95020-0060, suelengcarvalho@gmail.com} 
 
 %\textsc{\huge{\so{Suelen Goularte Carvalho}}}\\ \ \\
@@ -48,20 +57,31 @@
 
 \section{Resumo}
 \begin{tabularx}{1\linewidth}{X}
-	$\star$ Grande experiência com arquitetura de software web e mobile com mais de 10 anos com programação e liderança. Muito entusiasmada por software e novas tecnologias. \vspc\\
+
+	$\star$ Suelen tem 12 anos de experiência com desenvolvimento de software e estudou em duas das melhores instituições do Brasil, ITA e USP. Trabalhou em empresas multinacionais e startups de diferentes tamanhos. Atualmente busca colaborar de forma estratégica do ponto de vista de tecnologia. \vspc\\
+
+	$\star$ Durante sua carreira, Suelen passou por todas as etapas do desenvolvimento de software. Atuou desde posições especialistas como Desenvolvedora e Arquiteta de Software, até posições de liderança como Líder Técnica e Agile Coach, lidando com times de até 40 pessoas. Atuou em times com foco no desenvolvimento de produtos e outros focados em incidentes do dia a dia. Durante esses 12 anos ganhou um amplo e sólido conhecimento sobre processos e melhores práticas de engenharia, desenvolvimento de produtos e gestão de pessoas que atuam nesses times. \vspc\\
+
+	$\star$ Apaixonada por conhecimento e sempre disposta a melhorar, Suelen nunca parou de estudar. Cursou técnico em Processamento de Dados, se graduou em Análise e Desenvolvimento de Sistemas, pós-graduou em Gestão Estratégica de Projetos e atualmente está no último ano de Mestrado em Ciência da Computação. \vspc\\
+
+	$\star$ Atualmente colabora nas empresas de forma estratégica auxiliando na integração entre o modelo de negócio e tecnologia. Desta maneira, consegue sugerir o uso de tecnologias, processos e práticas mais adequados para evolução dos produtos, sistemas e times, sem se afastar do desenvolvimento de software. \vspc\\
+
+	$\star$ Além de sua vida profissional, Suelen adora praticar esportes, viajar e estar com sua família. \vspc\\
+
+	% $\star$ Grande experiência com arquitetura de software web e mobile com mais de 12 anos com programação e liderança. Muito entusiasmada por software e novas tecnologias. \vspc\\
 	
-	$\star$ Ótimas skills interpessoais, organizada, persistente e auto-motivada. Em constante busca por conhecimento, melhores resultados e desafios. \vspc\\
+	% $\star$ Ótimas skills interpessoais, organizada, persistente e auto-motivada. Em constante busca por conhecimento, melhores resultados e desafios. \vspc\\
 	
-	$\star$ Profundo conhecimento sobre a Cultura Ágil e Métodos Ágeis tais como Scrum, Kanban, Lean, XP e TDD. \vspc\\
+	% $\star$ Profundo conhecimento sobre a Cultura Ágil e Métodos Ágeis tais como Scrum, Kanban, Lean, XP e TDD. \vspc\\
 	
-	$\star$ Excelente conhecimento em diferentes linguagens de programação e tecnologias incluindo Java, .Net, Scala, C/C++, Android, tecnologias web e SQL. \vspc\\
+	% $\star$ Excelente conhecimento em diferentes linguagens de programação e tecnologias incluindo Java, .Net, Scala, C/C++, Android, tecnologias web e SQL. \vspc\\
 	
-	$\star$ Participante ativa na comunidade por meio de eventos de tecnologia como palestrante, ouvinte e organizadora, grupos de discussão online e textos técnicos em revistas e blog pessoal. \vspc\\	
+	% $\star$ Participante ativa na comunidade por meio de eventos de tecnologia como palestrante, ouvinte e organizadora, grupos de discussão online e textos técnicos em revistas e blog pessoal. \vspc\\	
 \end{tabularx}
 
 \section{Idiomas}
 \begin{tabularx}{1\linewidth}{p{6cm}X}
-$\star$ Inglês: Avançado & $\star$ Português: Nativo\\
+$\star$ Inglês: Fluência Básica & $\star$ Português: Nativo\\
 \end{tabularx}
 
 
@@ -87,7 +107,91 @@ $\star$ Inglês: Avançado & $\star$ Português: Nativo\\
 \end{tabularx}
 
 
+\section{Experiência Profissional}
+\begin{tabularx}{1\linewidth}{X}
+{\bf Moip $\star$ Agile Coach e Líder Técnica \hfill Sep/2016 $-$ Current} \\
+Como Agile Coach sou responsável pela disseminação, implementação e evolução do uso de métodos e práticas ágeis dentro do time de Produtos \& Engenharia, que hoje possui aproximadamente 45 pessoas, porém, não me limitando a eles. Tenho feito isso através de workshops sobre agilidade, coach e mentoria constantes com os times, estando sempre a disposição. Muitas das práticas que usamos no dia a dia veem do Kanban, Lean e Scrum. Como Líder Técnica sou responsável pela evolução técnica e gestão dos membros do time. Desta forma busco automatizar processos que tornam o time mais ágil, removo impedimentos, incentivo a disseminação de conhecimento e multidisciplinaridade, realizo 1-1 semanais e feedbacks semestrais com os desenvolvedores, promovo o uso das melhores práticas de desenvolvimento. No dia a dia atuo também como desenvolvedora implementando features, realizando code reviews, promovendo o estudo de novas tecnologias, dentre outras atividades. Algumas das ferramentas e tecnologias que usamos no dia a dia são: Jira, Slack, Git e Github, CircleCI, Hockeyapp, Fabric, Android, Ruby, Swift (iOS), dentre muitas outras. \vspc\\
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{X}
+{\bf Tripda $\star$ Líder Mobile \hfill Abr/2015 $-$ Atual} \\
+Como líder do time de mobile fui responsável pela boa comunicação com a equipe do Produtos e evoluir práticas ágeis. Como desenvolvedora trabalhei no desenvolvimento de aplicativos usando a ferramenta Xamarin e C\#. Nosso processo de desenvolvimento incluia testes automatizados, ambiente de integração contínua gamificado, feature branchs, code review e refatorações constantes. Utilizávamos o Xamarin Insights e Crittercism (agora Apteligent) como ferramenta para relatório de falhas, Localytics e Google Analytics como ferramentas de análise, AppBot para monitorar a classificação do usuário integrado com Slack e o HockeyApp para distribuição interna de versões de teste. \vspc\\
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{X}
+{\bf VivaReal $\star$ Gerente de Engenharia \hfill Ago/2014 $-$ Mar/2015} \\
+Fui responsável pelo gerenciamento de quatro times de engenheiros realizando 1-1s, feedback, contratação, demissão, promoções e promovendo o uso de boas práticas e processos de desenvolvimento. Esses times usavam diferentes tecnologias como Python, Java, Android, iOS, AngularJS, HTML5, CSS3, MongoDB, entre outros. Todos nossos aplicativos estavam sob a infraestrutura AWS. \vspc\\
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{X}
+{\bf Caelum $\star$ Desenvolvedora \hfill Nov/2014 $-$ Ago/2014} \\
+Desenvolvendo e melhorando projetos utilizando TDD e outros métodos ágeis. Ministrando cursos de Java para Web, Gerenciamento Ágil de projetos de Software com Scrum, Desenvolvimento móvel com Google Android, Técnicas de Desenvolvimento Android Avançado e outros. \vspc\\
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{X}
+{\bf MapLink $\star$ Arquiteta de Software \hfill Ago/2012 $-$ Nov/2013} \\
+Líder técnica de um time composto por 8 pessoas. Atuando diretamente na definição de arquitetura e design de web services e API mobile Android e iOS do MapLink. Principal responsável pela evolução das APIs mobile, que visam facilitar o uso de serviços web do MapLink em aplicativos móveis, e conteúdo do site dev.maplink.com.br/mobile-api. Atuando também no desenvolvimento da API Android. Introduzido conceitos de integração contínua com Jenkins e Maven, análise estática de código, execução automatizada de testes e code review através do Github. \vspc\\
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{X}
+{\bf Liberty Seguros $\star$ Líder de Projetos Web \hfill Abr/2011 $-$ Jul/2012} \\
+Líder de projetos responsável pela evolução do Portal do Segurado, principal software disponibilizado aos segurados Liberty. Atuando com times terceirizados de até 6 pessoas. Foram utilizados conceitos da cultura ágil para a gestão dos projetos. Ao longo de pouco mais de 1 ano foram entregues dois projetos de grande peso estratégico para a companhia. Os desafios incluíram questões de performance, escalabilidade, segurança da informação e agilidade na entrega dos projetos. As tecnologias utilizadas foram .Net, tecnologias web e Team Foundation Server.\vspc\\
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{X}
+{\bf Serasa Experian $\star$  Analista de Sistemas \hfill Out/2010 $-$ Abr/2011} \\
+Atuando diretamente na implantação de práticas ágeis tais como Lean, Kanban e Scrum no time de sustentação composto por 5 pessoas. Criado parcerias com áreas próximas ao nosso dia-a-dia. Forte atuação na evolução de softwares desenvolvidos em JavaEE e C\#.Net \vspc\\
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{X}
+{\bf Liberty Seguros $\star$ Analista de Sistemas Sênior \hfill Nov/2006 $-$ Out/2010} \\
+Responsável direta desde o desenvolvimento até a implantação de evoluções e correções no sistema Affinity Web. Arquitetura baseada no conceito de múltiplas camadas e SOA utilizando o protocolo Soap e XML. Desenvolvido utilizando a plataforma .Net e o Team Foundation Server.\vspc\\
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{X}
+{\bf Emphasys $\star$ Analista Programadora Pleno  \hfill Set/2006 $-$ Nov/2006} \\
+Atuação no desenvolvimento com Visual Basic e Delphi. \vspc\\
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{X}
+{\bf Signa $\star$ Programadora Pleno  \hfill Abr/2006 $-$ Set/2006} \\
+Desenvolvimento de sistemas utilizando multiplas tecnologias $-$ ASP, VBScript, Visual Basic, HTML, XML, CSS e JavaScript. Desenvolvimento e manutenção de stored procedures, triggers em sistemas Oracle e Microsoft SQL Server. \vspc\\
+\end{tabularx}
+
+\section{Experiência Acadêmica}
+\begin{tabularx}{1\linewidth}{X}
+{\bf Caelum $\star$ Instrutora \hfill Out/2012 $-$ Atual} \\
+Treinamentos dos cursos de Java para Web, Gerenciamento Ágil de Projetos de Software com Scrum, Desenvolvimento Móvel com Google Android e Técnicas de Desenvolvimento Android Avançado. \vspc\\
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{X}
+{\bf Universidade Bandeirantes (UNIBAN) $\star$ Professora \hfill Abr/2009 $-$ Ago/2009} \\
+Professor da disciplina de graduação Desenvolvimento Web. \vspc\\
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{X}
+{\bf Faculdade de Tecnologia Diamantes (FATED) $\star$ Professora \hfill Jun/2008 $-$ Jun/2009} \\
+Professor das disciplinas de graduação Desenvolvimento Web e Práticas de Orientação a Objeto com Java. \vspc\\
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{X}
+{\bf Faculdade Paulista de Artes (FPA) $\star$ Professora  \hfill Mai/2007 $-$ Jul/2007} \\
+Professor da disciplina do curso extracurricular Desenvolvimento Web com PHP. \vspc\\
+\end{tabularx}
+
 \section{Formação Complementar}
+\begin{tabularx}{1\linewidth}{p{2cm}X}
+2015       &  As Melhores Ferramentas e Práticas para o Gerenciamento de Pessoas (16h) - Paideia Educação \vspcitem\\
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{p{2cm}X}
+2015       & Desenvolvimento Mobile com iOS (40h) - Caelum \vspcitem\\
+\end{tabularx}
+
+\begin{tabularx}{1\linewidth}{p{2cm}X}
+2015       & Desenvolvimento Web com HTML, CSS e JavaScript (40h) - Caelum \vspcitem\\
+\end{tabularx}
+
 \begin{tabularx}{1\linewidth}{p{2cm}X}
 2013       & Jenkins: Automação de deploy e Integração Contínua (12h) - Caelum \vspcitem\\
 \end{tabularx}
@@ -140,74 +244,13 @@ $\star$ Inglês: Avançado & $\star$ Português: Nativo\\
 2008       & Academia .Net (VB, ASP, C\# e ADO) (144h) - Ká Solutions 
 \end{tabularx}
 
-\section{Experiência Profissional}
-\begin{tabularx}{1\linewidth}{X}
-{\bf Tripda $\star$ Líder Mobile \hfill Abr/2015 $-$ Atual} \\
-Atuando como desenvolvedora e líder no desenvolvimento dos aplicativos móveis. \vspc\\
-\end{tabularx}
-
-\begin{tabularx}{1\linewidth}{X}
-{\bf VivaReal $\star$ Gerente de Engenharia \hfill Ago/2014 $-$ Mar/2015} \\
-Líder de times de desenvolvimento de software, colaborando na construção da cultura e processos destes times, gestão de pessoas, responsável pela contratação de talentos de tecnologia e também desenvolvedora. \vspc\\
-\end{tabularx}
-
-\begin{tabularx}{1\linewidth}{X}
-{\bf Caelum Ensino e Inovação $\star$ Desenvolvedor e Instrutor \hfill Nov/2014 $-$ Ago/2014} \\
-Desenvolvendo e melhorando projetos utilizando TDD e outros métodos ágeis. Ministrando cursos de Java para Web, Gerenciamento Ágil de projetos de Software com Scrum, Desenvolvimento móvel com Google Android, Técnicas de Desenvolvimento Android Avançado e outros. \vspc\\
-\end{tabularx}
-
-\begin{tabularx}{1\linewidth}{X}
-{\bf MapLink $\star$ Arquiteto de Software \hfill Ago/2012 $-$ Nov/2013} \\
-Líder técnica de um time composto por 8 pessoas. Atuando diretamente na definição de arquitetura e design de web services e API mobile Android e iOS do MapLink. Principal responsável pela evolução das APIs mobile, que visam facilitar o uso de serviços web do MapLink em aplicativos móveis, e conteúdo do site dev.maplink.com.br/mobile-api. Atuando também no desenvolvimento da API Android. Introduzido conceitos de integração contínua com Jenkins e Maven, análise estática de código, execução automatizada de testes e code review através do Github. \vspc\\
-\end{tabularx}
-
-\begin{tabularx}{1\linewidth}{X}
-{\bf Liberty Seguros $\star$ Líder de Projetos Web \hfill Abr/2011 $-$ Jul/2012} \\
-Líder de projetos responsável pela evolução do Portal do Segurado, principal software disponibilizado aos segurados Liberty. Atuando com times terceirizados de até 6 pessoas. Foram utilizados conceitos da cultura ágil para a gestão dos projetos. Ao longo de pouco mais de 1 ano foram entregues dois projetos de grande peso estratégico para a companhia. Os desafios incluíram questões de performance, escalabilidade, segurança da informação e agilidade na entrega dos projetos. As tecnologias utilizadas foram .Net, tecnologias web e Team Foundation Server.\vspc\\
-\end{tabularx}
-
-\begin{tabularx}{1\linewidth}{X}
-{\bf Serasa Experian $\star$  Analista de Sistemas \hfill Out/2010 $-$ Abr/2011} \\
-Atuando diretamente na implantação de práticas ágeis tais como Lean, Kanban e Scrum no time de sustentação composto por 5 pessoas. Criado parcerias com áreas próximas ao nosso dia-a-dia. Forte atuação na evolução de softwares desenvolvidos em JavaEE e C\#.Net \vspc\\
-\end{tabularx}
-
-\begin{tabularx}{1\linewidth}{X}
-{\bf Liberty Seguros $\star$ Analista de Sistemas Sênior \hfill Nov/2006 $-$ Out/2010} \\
-Responsável direta desde o desenvolvimento até a implantação de evoluções e correções no sistema Affinity Web. Arquitetura baseada no conceito de múltiplas camadas e SOA utilizando o protocolo Soap e XML. Desenvolvido utilizando a plataforma .Net e o Team Foundation Server.\vspc\\
-\end{tabularx}
-
-\begin{tabularx}{1\linewidth}{X}
-{\bf Emphasys Consultoria $\star$ Analista Programador Pleno  \hfill Set/2006 $-$ Nov/2006} \\
-Atuação no desenvolvimento com Visual Basic e Delphi. \vspc\\
-\end{tabularx}
-
-\begin{tabularx}{1\linewidth}{X}
-{\bf Signa Logística do E-Business $\star$ Programador Pleno  \hfill Abr/2006 $-$ Set/2006} \\
-Desenvolvimento de sistemas utilizando multiplas tecnologias $-$ ASP, VBScript, Visual Basic, HTML, XML, CSS e JavaScript. Desenvolvimento e manutenção de stored procedures, triggers em sistemas Oracle e Microsoft SQL Server. \vspc\\
-\end{tabularx}
-
-\section{Experiência Acadêmica}
-\begin{tabularx}{1\linewidth}{X}
-{\bf Caelum Ensino e Inovação $\star$ Instrutor  \hfill Out/2012 $-$ Atual} \\
-Treinamentos dos cursos de Java para Web, Gerenciamento Ágil de Projetos de Software com Scrum, Desenvolvimento Móvel com Google Android e Técnicas de Desenvolvimento Android Avançado. \vspc\\
-\end{tabularx}
-
-\begin{tabularx}{1\linewidth}{X}
-{\bf Universidade Bandeirantes (UNIBAN) $\star$ Professor \hfill Abr/2009 $-$ Ago/2009} \\
-Professor da disciplina de graduação Desenvolvimento Web. \vspc\\
-\end{tabularx}
-
-\begin{tabularx}{1\linewidth}{X}
-{\bf Faculdade de Tecnologia Diamantes (FATED) $\star$ Professor \hfill Jun/2008 $-$ Jun/2009} \\
-Professor das disciplinas de graduação Desenvolvimento Web e Práticas de Orientação a Objeto com Java. \vspc\\
-\end{tabularx}
-
-\begin{tabularx}{1\linewidth}{X}
-{\bf Faculdade Paulista de Artes (FPA) $\star$ Professor  \hfill Mai/2007 $-$ Jul/2007} \\
-Professor da disciplina do curso extracurricular Desenvolvimento Web com PHP. \vspc\\
-\end{tabularx}
-
 \section{Participações em Eventos(Como Palestrante) / Publicações}
+\begin{tabularx}{1\linewidth}{p{2.0cm}X}
+10/2015    & DevFest Sudeste - O sucesso do seu app está nos detalhes \vspcitem\\
+\end{tabularx}
+\begin{tabularx}{1\linewidth}{p{2.0cm}X}
+09/2015    & DevFest Goias - As últimas novidades que todo desenvolvedor deve saber sobre Android \vspcitem\\
+\end{tabularx}
 \begin{tabularx}{1\linewidth}{p{2.0cm}X}
 05/2014    & Mobile Conf RJ - Sua carreira e o que o desenvolvimento mobile tem haver com isso! \vspcitem\\
 \end{tabularx}
@@ -263,13 +306,13 @@ Aplicativo para cálculo de tributos, PIS, COFINS, ISS, CSLL e IRPJ, que incidem
 \end{tabularx}
 
 \section{Trabalhos Voluntários (Hobbie)}
-% \begin{tabularx}{1\linewidth}{X}
-% {\bf Líder Organizador do GDG-SP Android Meetup \hfill Abr/2013 - Atual} \\
-% Desde de Abril de 2013 faço parte do GDG-SP (Google Developers Group - São Paulo) como organizadora líder do Android Meetup. O Android Meetup é um evento focado no desenvolvimento com a plataforma Android. Este encontro é realizado pelo grupo GDG-SP que organiza voluntariamente diversos eventos sobre tecnologias do Google. \vspc\\
-% \end{tabularx}
+\begin{tabularx}{1\linewidth}{X}
+{\bf Líder Organizador do GDG-SP Android Meetup \hfill Abr/2013 - 2015} \\
+Desde de Abril de 2013 faço parte do GDG-SP (Google Developers Group - São Paulo) como organizadora líder do Android Meetup. O Android Meetup é um evento focado no desenvolvimento com a plataforma Android. Este encontro é realizado pelo grupo GDG-SP que organiza voluntariamente diversos eventos sobre tecnologias do Google. \vspc\\
+\end{tabularx}
 
 \begin{tabularx}{1\linewidth}{X}
-{\bf Organizador do Agile Brazil \hfill Jun/2012 - Atual} \\
+{\bf Organizador do Agile Brazil \hfill 2012 - 2014} \\
 O Agile Brazil é o maior evento sobre agilidade que temos no Brasil. Em 2012, fui convidada à participar do grupo que o organiza voluntariamente. Desde então, sempre que posso colaboro com a organização do evento. \vspc\\
 \end{tabularx}
 

@@ -1,7 +1,13 @@
+en-new: pdflatex-en-new clean
+
 en: pdflatex-en clean
 
 pt: pdflatex-pt clean
 
+
+pdflatex-en-new:
+	pdflatex resume-new.tex
+	open -a Skim resume-new.pdf
 
 pdflatex-en:
 	pdflatex Resume-SuelenGoularteCarvalho.tex
